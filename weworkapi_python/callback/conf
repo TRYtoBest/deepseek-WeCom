@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# 设置企业微信相关环境变量
+export WECOM_CORP_ID="X"
+export WECOM_AGENT_ID="XX"
+export WECOM_SECRET="XXX"
+export WECOM_TOKEN="XXX"
+export WECOM_AES_KEY="XXXX"
+
+
+# 设置 DeepSeek API Key
+export DEEPSEEK_API_KEY="DS-XX"
+
+# 设置 Redis 连接 URL
+export REDIS_URL="redis://localhost:6379/0"
+
+# 打印环境变量以验证
+echo "WECOM_CORP_ID is set to: $WECOM_CORP_ID"
+echo "WECOM_AGENT_ID is set to: $WECOM_AGENT_ID"
+echo "WECOM_SECRET is set to: $WECOM_SECRET"
+echo "WECOM_TOKEN is set to: $WECOM_TOKEN"
+echo "WECOM_AES_KEY is set to: $WECOM_AES_KEY"
+echo "DEEPSEEK_API_KEY is set to: $DEEPSEEK_API_KEY"
+echo "REDIS_URL is set to: $REDIS_URL"
